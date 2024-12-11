@@ -78,6 +78,13 @@ print(list_extend.index(6))
 #Визначити довжину списку list_append за допомогою функції len()
 print("довжинa списку list_append: ", len(list_append))
 
+
+#Cтворити змінну dict_test = {'car': 'Toyota', 'price': 4900, 'where': 'EU'} 
+# та вивести на екран дані, які знаходяться в ключах car та where
+dict_test = {'car': 'Toyota', 'price': 4900, 'where': 'EU'}
+print(dict_test.values())
+print(dict_test.get('car', 'no key, try again'), '------>', dict_test.get('where', 'no key, try again'))
+
 #За допомогою функцій keys() і values() вивести на екран ключі та їх значення
 dict_1 = {'Name': 'Myk', 'Edge': 38}
 print(dict_1.values())
